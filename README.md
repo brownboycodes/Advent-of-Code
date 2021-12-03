@@ -2,4 +2,6 @@ My solutions for [Advent of Code](https://adventofcode.com/)
 
 ### 2021
 
-1. [Day 1](2021/day_1)
+1. [Day 1](https://adventofcode.com/2021/day/1) solutions in [Kotlin](2021/day_1)
+2. [Day 2](https://adventofcode.com/2021/day/2) solutions in [Kotlin](2021/day_2)
+3. [Day 3](https://adventofcode.com/2021/day/3) solutions in [Kotlin](2021/day_3)

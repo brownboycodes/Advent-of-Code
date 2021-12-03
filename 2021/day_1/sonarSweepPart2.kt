@@ -1,5 +1,5 @@
 fun groupsOf3(depths: IntArray): Int{
-    var simplifiedDepths= mutableListOf<Int>()
+    val simplifiedDepths= mutableListOf<Int>()
     for (i in 2 until depths.size){
         simplifiedDepths.add(depths.slice((i-2)..i).sum())
 

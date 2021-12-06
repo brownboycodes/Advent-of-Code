@@ -17,6 +17,6 @@ fun day1() {
 
 }
 
-private operator fun Int.invoke(toIntArray: IntArray): Any? {
-    TODO("Not yet implemented")
-}
+//private operator fun Int.invoke(toIntArray: IntArray): Any? {
+//    TODO("Not yet implemented")
+//}

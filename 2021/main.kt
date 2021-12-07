@@ -1,7 +1,6 @@
-
-import day_6.day6
+import day_7.day7
 
 fun main() {
-   day6()
+   day7()
 
     }

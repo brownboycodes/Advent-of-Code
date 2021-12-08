@@ -4,4 +4,5 @@ out
 advent_of_code.iml
 2021/day_4
 2021/day_5
+2021/day_8/day8Part2.kt
 gradle.properties

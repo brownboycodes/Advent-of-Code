@@ -10,7 +10,7 @@ fun totalIncompleteSyntax(syntaxList: List<String>) {
             '{' to 3,
             '<' to 4,
     )
-    val openBraces = listOf('(', '{', '[', '<')
+
     var parenthesesStack: MutableList<Char>
     for (syntaxes in syntaxList) {
         wrongBrace = false
@@ -21,7 +21,7 @@ fun totalIncompleteSyntax(syntaxList: List<String>) {
                     s == ']' && parenthesesStack.last() == '[' ||
                     s == '>' && parenthesesStack.last() == '<') {
                 parenthesesStack.removeLast()
-            } else if (s in openBraces) {
+            } else if (s in syntaxScores.keys) {
                 parenthesesStack.add(s)
             } else {
                 wrongBrace = true
